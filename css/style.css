@@ -519,6 +519,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 /* Sections Header
 --------------------------------*/
+.section-header{
+  padding-bottom: 30px;
+}
+
 .section-header h3 {
   font-size: 32px;
   color: #111;
@@ -555,6 +559,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   padding-bottom: 30px;
   color: #333;
+  display:none;
 }
 
 /* Section with background
@@ -713,7 +718,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .icon {
+  width: 80px;
+  height: 80px;
   float: left;
+  margin-right: 10px;
 }
 
 #services .icon i {
@@ -743,6 +751,36 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
+}
+
+#services .progress {
+  height: 35px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+
+}
+
+#services .progress .skill {
+  font-family: "Open Sans", sans-serif;
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+
+#services .progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+#services .progress-bar {
+  text-align: left;
+  transition: .9s;
+}
+
+#services .row .bounceInUp {
+  padding: 0 30px 0 30px;
 }
 
 /* Call To Action Section
@@ -1100,6 +1138,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .testimonial-item p {
+  font-size: 16px;
   font-style: italic;
   margin: 0 auto 15px auto;
 }
@@ -1176,6 +1215,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
+}
+
+#team .member h5 {
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #fff;
+  line-height: inherit;
 }
 
 #team .member span {
@@ -1470,4 +1518,38 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+.kor {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+
+/* elisom icon */
+.icon_html {
+  background: url("../img/skills/html.svg") no-repeat center;
+  background-size: 70px 70px;
+  display: block;
+}
+.icon_css {
+  background: url("../img/skills/css.svg") no-repeat center;
+  background-size: 70px 70px;
+  display: block;
+}
+.icon_javascript {
+  background: url("../img/skills/javascript.svg") no-repeat center;
+  background-size: 80px 80px;
+  display: block;
+}
+.icon_d3js {
+  background: url("../img/skills/d3.svg") no-repeat center;
+  background-size: 70px 70px;
+  display: block;
+}
+
+.codeclub{
+  background: url("../img/experience/codeclub.jpg") no-repeat center;
+  max-width: 100%;
+  height: 100%;
 }
