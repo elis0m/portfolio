@@ -174,4 +174,6 @@ jQuery(document).ready(function( $ ) {
     items: 1
   });
 
+  $(".skills-content").hide();
+
 });

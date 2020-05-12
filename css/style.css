@@ -714,14 +714,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 #services .icon {
   width: 80px;
   height: 80px;
   float: left;
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 #services .icon i {
@@ -1050,6 +1050,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #848484;
   font-weight: 500;
   font-size: 14px;
+    word-break: keep-all;
   /*text-transform: uppercase; 대문자*/
 }
 
@@ -1218,10 +1219,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member h5 {
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 15px;
   color: #fff;
   line-height: inherit;
 }
