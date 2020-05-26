@@ -783,6 +783,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 30px 0 30px;
 }
 
+#services h4 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
@@ -852,50 +858,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: .9s;
 }
 
-/* Facts Section
---------------------------------*/
-#facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
-  background-size: cover;
-  padding: 60px 0 0 0;
-  position: relative;
-}
-
-#facts::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
-  z-index: 9;
-}
-
-#facts .container {
-  position: relative;
-  z-index: 10;
-}
-
-#facts .counters span {
+#skills .counters span {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 48px;
   display: block;
   color: #7ebdb4;
 }
 
-#facts .counters p {
+#skills .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #111;
-}
-
-#facts .facts-img {
-  text-align: center;
-  padding-top: 30px;
 }
 
 /* Portfolio Section
@@ -946,7 +922,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 520px;
+  height: 570px;
   overflow: hidden;
 }
 
@@ -1015,13 +991,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   text-align: left;
   padding: 30px;
-  height: 250px;
+  height: 300px;
   border-radius: 0 0 3px 3px;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 20px;
-  line-height: 1px;
   font-weight: 700;
   margin-bottom: 18px;
   padding-bottom: 0;
@@ -1525,6 +1500,51 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+}
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #34b7a7;
+    border-top-color: #dcf5f2;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 
 /* elisom icon */
@@ -1546,6 +1566,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 .icon_d3js {
   background: url("../img/skills/d3.svg") no-repeat center;
   background-size: 70px 70px;
+  display: block;
+}
+
+.icon_hadoop {
+  background: url("../img/skills/hadoop.png") no-repeat center;
+  background-size: 70px;
+  display: block;
+}
+
+.icon_spark {
+  background: url("../img/skills/spark.png") no-repeat center;
+  background-size: 70px;
   display: block;
 }
 
