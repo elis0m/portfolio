@@ -866,6 +866,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #7ebdb4;
 }
 
+#skills .counters .jungchuegi {
+  font-weight: 600;
+  font-size: 40px;
+  display: block;
+  color: #7ebdb4;
+  padding-top: 15px;
+}
+
+
 #skills .counters p {
   padding: 0;
   margin: 0 0 20px 0;
@@ -1070,10 +1079,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
-#testimonials .section-header {
-  margin-bottom: 40px;
-}
-
 #testimonials .testimonial-item {
   text-align: center;
 }
@@ -1126,7 +1131,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .owl-nav, #testimonials .owl-dots {
-  margin-top: 5px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -1146,7 +1151,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+/*  background: #fff;*/
   padding: 60px 0;
 }
 
@@ -1187,17 +1192,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member h4 {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
 }
 
 #team .member h5 {
-  font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 14px;
   color: #fff;
   line-height: inherit;
 }

@@ -16,7 +16,21 @@ jQuery(document).ready(function( $ ) {
     } else {
       $('.back-to-top').fadeOut('slow');
     }
+    /*
+        $("section").each(function() {
+          $(this).on('scroll', function () {
+            $(this).attr("id");
+            debger
+          });
+          if($(this).length) {
+            debugger
+            $(".nav-menu").children().removeClass("menu-active");
+            $(".menu-item[href='#"+$(this).attr("id")+"']").parent().addClass('menu-active');
+          }
+        });
+    */
   });
+
   $('.back-to-top').click(function(){
     $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
     return false;
