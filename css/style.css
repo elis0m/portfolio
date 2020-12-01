@@ -102,8 +102,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Yellowtail', cursive;
   font-weight: 700;
+  font-size: 35px;
   letter-spacing: 3px;
 }
 
@@ -705,62 +706,62 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 20px 20px 20px;
 }
 
-/* Services Section
+/* skills Section
 --------------------------------*/
-#services {
+#skills {
   background: #fff;
   background-size: cover;
   padding: 60px 0 40px 0;
 }
 
-#services .box {
+#skills .box {
   margin-bottom: 50px;
 }
 
-#services .icon {
+#skills .icon {
   width: 80px;
   height: 80px;
   float: left;
   margin-right: 25px;
 }
 
-#services .icon i {
+#skills .icon i {
   color: #7ebdb4;
   font-size: 36px;
   line-height: 1;
   transition: 0.5s;
 }
 
-#services .title {
+#skills .title {
   margin-left: 60px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#skills .title a {
   color: #111;
 }
 
-#services .box:hover .title a {
+#skills .box:hover .title a {
   color: #7ebdb4;
 }
 
-#services .description {
+#skills .description {
   font-size: 14px;
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
 }
 
-#services .progress {
+#skills .progress {
   height: 35px;
   margin-bottom: 10px;
   margin-left: 60px;
 
 }
 
-#services .progress .skill {
+#skills .progress .skill {
   font-family: "Open Sans", sans-serif;
   line-height: 35px;
   padding: 0;
@@ -768,22 +769,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
-#services .progress .skill .val {
+#skills .progress .skill .val {
   float: right;
   font-style: normal;
   margin: 0 20px 0 0;
 }
 
-#services .progress-bar {
+#skills .progress-bar {
   text-align: left;
   transition: .9s;
 }
 
-#services .row .bounceInUp {
+#skills .row .bounceInUp {
   padding: 0 30px 0 30px;
 }
 
-#services h4 {
+#skills h4 {
   text-align: center;
   font-size: 24px;
   margin-bottom: 30px;
@@ -829,16 +830,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Call To Action Section
 --------------------------------*/
-#skills {
+#certificate {
   padding: 60px 0;
 }
 
-#skills .progress {
+#certificate .progress {
   height: 35px;
   margin-bottom: 10px;
 }
 
-#skills .progress .skill {
+#certificate .progress .skill {
   font-family: "Open Sans", sans-serif;
   line-height: 35px;
   padding: 0;
@@ -846,19 +847,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
-#skills .progress .skill .val {
+#certificate .progress .skill .val {
   float: right;
   font-style: normal;
   margin: 0 20px 0 0;
 }
 
-#skills .progress-bar {
+#certificate .progress-bar {
   width: 1px;
   text-align: left;
   transition: .9s;
 }
 
-#skills .counters span {
+#certificate .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 48px;
@@ -866,7 +867,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #7ebdb4;
 }
 
-#skills .counters .jungchuegi {
+#certificate .counters .jungchuegi {
   font-weight: 600;
   font-size: 40px;
   display: block;
@@ -875,7 +876,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-#skills .counters p {
+#certificate .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
