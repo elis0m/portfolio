@@ -719,10 +719,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #skills .icon {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   float: left;
-  margin-right: 25px;
+  margin-right: 20px;
+  background-size: 100%;
 }
 
 #skills .icon i {
@@ -789,6 +790,42 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 24px;
   margin-bottom: 30px;
 }
+
+#skills .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #f6f6f6;
+  transition: ease-in-out 0.3s;
+}
+
+#skills .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+#skills .icon-box h3 {
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+
+#skills .icon-box h3 a {
+  color: #222222;
+  transition: ease-in-out 0.3s;
+}
+
+#skills .icon-box h3 a:hover {
+  color: #3498db;
+}
+
+#skills .icon-box:hover {
+  background: #eef7fc;
+}
+
 
 /* Call To Action Section
 --------------------------------*/
@@ -1555,34 +1592,34 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* elisom icon */
 .icon_html {
   background: url("../img/skills/html.svg") no-repeat center;
-  background-size: 70px 70px;
+  /*background-size: 70px 70px;*/
   display: block;
 }
 .icon_css {
   background: url("../img/skills/css.svg") no-repeat center;
-  background-size: 70px 70px;
+  /*background-size: 70px 70px;*/
   display: block;
 }
 .icon_javascript {
   background: url("../img/skills/javascript.svg") no-repeat center;
-  background-size: 80px 80px;
+  /*background-size: 70px 70px;*/
   display: block;
 }
 .icon_d3js {
   background: url("../img/skills/d3.svg") no-repeat center;
-  background-size: 70px 70px;
+  /*background-size: 70px 70px;*/
   display: block;
 }
 
 .icon_hadoop {
   background: url("../img/skills/hadoop.png") no-repeat center;
-  background-size: 70px;
+  /*background-size: 70px 70px;*/
   display: block;
 }
 
 .icon_spark {
   background: url("../img/skills/spark.png") no-repeat center;
-  background-size: 70px;
+  /*background-size: 70px 70px;*/
   display: block;
 }
 
