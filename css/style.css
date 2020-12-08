@@ -718,6 +718,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 50px;
 }
 
+#skills p {
+  margin: 0;
+  color: #848484;
+}
+
 #skills .icon {
   width: 50px;
   height: 50px;
@@ -756,10 +761,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #skills .progress {
-  height: 35px;
-  margin-bottom: 10px;
-  margin-left: 60px;
-
+  margin-top : 10px;
+  width: 130px;
 }
 
 #skills .progress .skill {
@@ -800,7 +803,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #skills .icon-box i {
-  font-size: 32px;
   padding-right: 10px;
   line-height: 1;
 }
