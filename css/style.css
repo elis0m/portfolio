@@ -1605,24 +1605,46 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*background-size: 70px 70px;*/
   display: block;
 }
+.icon_java {
+  background: url("../img/skills/java.svg") no-repeat center;
+  /*background-size: 70px 70px;*/
+  display: block;
+}
+.icon_python {
+  background: url("../img/skills/python.png") no-repeat center;
+  /*background-size: 70px 70px;*/
+  display: block;
+}
+.icon_firebase {
+  background: url("../img/skills/firebase.png") no-repeat center;
+  /*background-size: 70px 70px;*/
+  display: block;
+}
+.icon_rn {
+  background: url("../img/skills/rn.png") no-repeat center;
+  /*background-size: 70px 70px;*/
+  display: block;
+}
 .icon_d3js {
   background: url("../img/skills/d3.svg") no-repeat center;
   /*background-size: 70px 70px;*/
   display: block;
 }
-
 .icon_hadoop {
   background: url("../img/skills/hadoop.png") no-repeat center;
   /*background-size: 70px 70px;*/
   display: block;
 }
-
 .icon_spark {
   background: url("../img/skills/spark.png") no-repeat center;
   /*background-size: 70px 70px;*/
   display: block;
 }
-
+.icon_mysql {
+  background: url("../img/skills/mysql.svg") no-repeat center;
+  /*background-size: 70px 70px;*/
+  display: block;
+}
 .codeclub{
   background: url("../img/experience/codeclub.jpg") no-repeat center;
   max-width: 100%;
