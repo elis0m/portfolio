@@ -721,6 +721,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #skills p {
   margin: 0;
   color: #848484;
+  margin-top: 3px;
 }
 
 #skills .icon {
@@ -1624,6 +1625,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .icon_rn {
   background: url("../img/skills/rn.png") no-repeat center;
+  /*background-size: 70px 70px;*/
+  display: block;
+}
+.icon_nodejs {
+  background: url("../img/skills/nodejs.png") no-repeat center;
+  /*background-size: 70px 70px;*/
+  display: block;
+}
+.icon_cordova {
+  background: url("../img/skills/cordova.png") no-repeat center;
   /*background-size: 70px 70px;*/
   display: block;
 }
