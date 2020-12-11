@@ -1003,6 +1003,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.2s;
 }
 
+#portfolio .portfolio-item figure .no-details {
+  background :#6E6E6E;
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
 #portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
   padding-top: 6px;
   font-size: 22px;
