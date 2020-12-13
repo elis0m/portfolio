@@ -930,6 +930,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
+#portfolio span {
+  margin-right: 15px;
+}
+
 #portfolio #portfolio-flters {
   padding: 0;
   margin: 5px 0 35px 0;
