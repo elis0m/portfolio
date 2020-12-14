@@ -1619,6 +1619,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*background-size: 70px 70px;*/
   display: block;
 }
+.icon_spring {
+  background: url("../img/skills/spring.png") no-repeat center;
+  /*background-size: 70px 70px;*/
+  display: block;
+}
 .icon_java {
   background: url("../img/skills/java.svg") no-repeat center;
   /*background-size: 70px 70px;*/
