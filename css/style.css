@@ -620,6 +620,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
+#about .about {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  padding: 0;
+  background: #fff;
+  height: 100%;
+}
+
+#about .about .inner {
+  margin: 20px;
+}
+
 #about::before {
   content: '';
   position: absolute;
@@ -638,7 +650,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-col {
   background: #fff;
-  border-radius: 0 0 4px 4px;
+  /*border-radius: 0 0 4px 4px;*/
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
 }
@@ -681,13 +693,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #7ebdb4;
 }
 
-#about .about-col h2 {
+#about h2 {
   color: #000;
   text-align: center;
   font-weight: 700;
   font-size: 20px;
   padding: 0;
-  margin: 40px 0 12px 0;
+  /*margin: 40px 0 12px 0;*/
+}
+
+#about p {
+  font-size: 15px;
+  margin: 1rem 0 0 0;
 }
 
 #about .about-col h2 a {
@@ -703,7 +720,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   color: #333;
   margin-bottom: 0;
-  padding: 0 20px 20px 20px;
+  /*padding: 0 20px 20px 20px;*/
 }
 
 /* skills Section
@@ -1207,9 +1224,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
+#team .row .wow {
+  padding: 0 7.5px 0 7.5px;
+}
+
 #team .member {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   background: #000;
   position: relative;
 }
