@@ -5,6 +5,12 @@ jQuery(document).ready(function( $ ) {
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function() {
         $(this).remove();
+
+        // about somin
+        var aboutImgHeight = document.getElementById('about_img').clientHeight;
+        aboutImgHeight = aboutImgHeight + 'px';
+        document.getElementById("about_content").style.height = aboutImgHeight;
+
       });
     }
   });
@@ -260,7 +266,7 @@ jQuery(document).ready(function( $ ) {
     dots: true,
     loop: true,
     items: 1
-  });
+  }); 
 
 //  $(".skills-content").hide();
 
