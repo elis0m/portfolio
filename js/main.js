@@ -254,8 +254,8 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
+  // motto carousel (uses the Owl Carousel library)
+  $(".motto-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,

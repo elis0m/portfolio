@@ -585,48 +585,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f7f7f7;
 }
 
-/* Featured Services Section
---------------------------------*/
-#featured-services {
-  background: #000;
-}
-
-#featured-services .box {
-  padding: 30px 20px;
-}
-
-#featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
-}
-
-#featured-services i {
-  color: #7ebdb4;
-  font-size: 48px;
-  display: inline-block;
-  line-height: 1;
-}
-
-#featured-services h4 {
-  font-weight: 400;
-  margin: 15px 0;
-  font-size: 18px;
-}
-
-#featured-services h4 a {
-  color: #fff;
-}
-
-#featured-services h4 a:hover {
-  color: #7ebdb4;
-}
-
-#featured-services p {
-  font-size: 14px;
-  line-height: 24px;
-  color: #fff;
-  margin-bottom: 0;
-}
-
 /* About Us Section
 --------------------------------*/
 #about {
@@ -636,9 +594,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
+#about img {
+  width: 100%;
+  height: auto;
+}
+
 #about .about {
   border-radius: 10px;
-  box-shadow: 5px 5px 5px gray;
+  box-shadow: 2px 2px 3px gray;
   padding: 0;
   background: #fff;
   height: 100%;
@@ -860,45 +823,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #skills .icon-box:hover {
   background: #dff1ef;
-}
-
-
-/* Call To Action Section
---------------------------------*/
-#call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
-  background-size: cover;
-  padding: 60px 0;
-}
-
-#call-to-action h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#call-to-action p {
-  color: #fff;
-}
-
-#call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 25px;
-  transition: 0.5s;
-  margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #7ebdb4;
-  border: 2px solid #7ebdb4;
 }
 
 /* Call To Action Section
@@ -1158,44 +1082,44 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #7ebdb4;
 }
 
-/* Testimonials Section
+/* motto Section
 --------------------------------*/
-#testimonials {
+#motto {
   padding: 60px 0;
 }
 
-#testimonials .testimonial-item {
+#motto .testimonial-item {
   text-align: center;
 }
 
-#testimonials .testimonial-item .testimonial-img {
+#motto .testimonial-item .testimonial-img {
   width: 120px;
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
 }
 
-#testimonials .testimonial-item h3 {
+#motto .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
 
-#testimonials .testimonial-item h4 {
+#motto .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0 0 15px 0;
 }
 
-#testimonials .testimonial-item .quote-sign-left {
+#motto .testimonial-item .quote-sign-left {
   margin-top: -15px;
   padding-right: 10px;
   display: inline-block;
   width: 37px;
 }
 
-#testimonials .testimonial-item .quote-sign-right {
+#motto .testimonial-item .quote-sign-right {
   margin-bottom: -15px;
   padding-left: 10px;
   display: inline-block;
@@ -1203,24 +1127,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 37px;
 }
 
-#testimonials .testimonial-item p {
+#motto .testimonial-item p {
   font-size: 16px;
   font-style: italic;
   margin: 0 auto 15px auto;
 }
 
 @media (min-width: 992px) {
-  #testimonials .testimonial-item p {
+  #motto .testimonial-item p {
     width: 80%;
   }
 }
 
-#testimonials .owl-nav, #testimonials .owl-dots {
+#motto .owl-nav, #motto .owl-dots {
   margin-top: 30px;
   text-align: center;
 }
 
-#testimonials .owl-dot {
+#motto .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -1229,7 +1153,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #ddd;
 }
 
-#testimonials .owl-dot.active {
+#motto .owl-dot.active {
   background-color: #7ebdb4;
 }
 
