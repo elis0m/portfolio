@@ -66,6 +66,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+hr.after {
+  height: 10px;
+  border: 0;
+  margin: 0;
+  box-shadow: 0 -8px 7px -10px #bbb inset;
+}
+
+hr.before {
+  height: 10px;
+  border: 0;
+  margin: 0;
+  box-shadow: 0 8px 7px -10px #bbb inset;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -707,7 +721,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #skills {
   background: #fff;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding: 60px 0;
 }
 
 #skills .box {
@@ -864,14 +878,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #7ebdb4;
 }
 
-#certificate .counters .jungchuegi {
+#certificate .counters .cert_name {
   font-weight: 600;
   font-size: 40px;
   display: block;
   color: #7ebdb4;
-  padding-top: 15px;
+  padding-top: 10px;
 }
-
 
 #certificate .counters p {
   padding: 0;
