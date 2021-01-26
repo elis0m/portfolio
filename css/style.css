@@ -622,7 +622,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about .inner {
-  margin: 20px;
+  padding : 20px;
 }
 
 #about::before {
